@@ -48,7 +48,7 @@
                 </ScrollView>
                 
                 
-                <local:CHDBottomSheet x:Name="CHDBottomSheetBs"
+                <local:BottomSheet x:Name="CHDBottomSheetBs"
                                     HorizontalOptions="FillAndExpand" 
                                     VerticalOptions="FillAndExpand"
                                     BackgroundColor="Blue"
@@ -149,7 +149,7 @@
                         </StackLayout>
                     </ScrollView>
 
-                </local:CHDBottomSheet>
+                </local:BottomSheet>
                 
             </RelativeLayout>
             
