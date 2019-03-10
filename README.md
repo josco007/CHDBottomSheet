@@ -135,7 +135,7 @@ the <b>OnPanUpdatedEvent</b> and <b>OnPanDirection<b> should look like this:
 
 
 
-<details><summary><h4>XAML</h4></summary>
+<details><summary><b>XAML expand</b></summary>
 <p>
 
 <h5>This component needs a relativelayout as root view, your xaml should looks like this:</h5>
@@ -221,7 +221,7 @@ the <b>OnPanUpdatedEvent</b> and <b>OnPanDirection<b> should look like this:
    
 
 
-<details><summary><h4>CS</h4></summary>
+<details><summary><b>CS expand</b></summary>
 <p>
 
 <h5>Your CS code should be like this</h5>
