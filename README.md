@@ -133,7 +133,11 @@ the <b>OnPanUpdatedEvent</b> and <b>OnPanDirection<b> should look like this:
             }
         }
 
-<h4>XAML</h4>
+
+
+<details><summary><h4>XAML</h4></summary>
+<p>
+
 <h5>This component needs a relativelayout as root view, your xaml should looks like this:</h5>
 
     <?xml version="1.0" encoding="UTF-8"?>
@@ -210,8 +214,16 @@ the <b>OnPanUpdatedEvent</b> and <b>OnPanDirection<b> should look like this:
         </StackLayout>
     </ContentPage.Content>
     </ContentPage>
-    
-<h4>CS</h4>
+
+</p>
+</details>
+
+   
+
+
+<details><summary><h4>CS</h4></summary>
+<p>
+
 <h5>Your CS code should be like this</h5>
         
     public partial class HomePage : ContentPage
@@ -325,5 +337,14 @@ the <b>OnPanUpdatedEvent</b> and <b>OnPanDirection<b> should look like this:
         }
 
     }
+    
+
+</p>
+</details>
+
+    
+ If this project help you reduce time to develop, you can give me a cup of coffee :)
+ 
+ [![paypal](https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H2TEDQDPJ557A)
     
     
