@@ -21,7 +21,7 @@ This is a component to present a bottom sheet view easily in Xamarin Forms it su
 <td align="center">API 14+, Not tested on lower</td>
 </tr>
 <tr>
-<td>Windows 10 UWP(Beta)</td>
+<td>Windows 10 UWP</td>
 <td align="center">Not tested</td>
 </tr>
 </tbody>
