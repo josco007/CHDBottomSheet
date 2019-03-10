@@ -28,7 +28,11 @@ This is a component to present a bottom sheet view easily in Xamarin Forms it su
 </table>
 
 
-<h3>initialize</h3>
+<h3> Install via nuget</h3>
+
+https://www.nuget.org/packages/CHD.BottomSheet/
+
+<h3>Initialize</h3>
 
 <h5>You must set the root relative layout on the OnAppearingMethod</h5>
     
