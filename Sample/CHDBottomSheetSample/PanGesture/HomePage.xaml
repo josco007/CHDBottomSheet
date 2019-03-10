@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CHD;assembly=CHD.BottomSheet" x:Class="PanGesture.HomePage">
+	<ContentPage.Content>
+
+
+        <StackLayout Spacing="0" Padding="0,100,0,0">
+
+
+            <RelativeLayout x:Name="_rootRlt" BackgroundColor="Green" VerticalOptions="FillAndExpand">
+
+                <ScrollView RelativeLayout.XConstraint="0"
+                                    RelativeLayout.YConstraint="0"
+                                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, ElementName=SearchControlsGrid,Property=Width, Factor=1, Constant=0 }"
+                                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, ElementName=SearchControlsGrid, Property=Height,Factor=1, Constant=-200}">
+                    <StackLayout Orientation="Vertical">
+
+                        <Label Text="YOUR CONTENT HERE FIRST ITEM"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE"/>
+                        <Label Text="YOUR CONTENT HERE LAST ITEM"/>
+  
+                    </StackLayout>
+                </ScrollView>
+                
+                
+                <local:CHDBottomSheet x:Name="CHDBottomSheetBs"
+                                    HorizontalOptions="FillAndExpand" 
+                                    VerticalOptions="FillAndExpand"
+                                    BackgroundColor="Blue"
+                                    RelativeLayout.XConstraint="0"
+                                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, ElementName=SearchControlsGrid,Property=Height, Factor=1, Constant=-200 }"
+                                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, ElementName=SearchControlsGrid,Property=Width, Factor=1, Constant=0 }"
+                                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=Constant, ElementName=SearchControlsGrid, Property=Height,Factor=1, Constant=200}">
+
+                    <ScrollView x:Name="BottomSheetScroll" IsEnabled="False">
+                        <StackLayout BackgroundColor="Aqua"  >
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="0"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="1"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="2"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="3"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="4"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="5"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="6"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="7"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="8"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="9"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="10"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="11"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="12"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="13"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="14"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="15"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="16"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="17"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="18"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="19"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="20"/>
+                                <Image Source="MonoMonkey.jpg" WidthRequest="50" HeightRequest="50"  VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+
+                </local:CHDBottomSheet>
+                
+            </RelativeLayout>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
