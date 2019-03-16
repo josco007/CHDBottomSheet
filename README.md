@@ -1,4 +1,10 @@
 # CHDBottomSheet
+
+If this project help you reduce time to develop, you can give me a cup of coffee :)
+ 
+ [![paypal](https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H2TEDQDPJ557A)
+
+
 This is a component to present a bottom sheet view easily in Xamarin Forms it supports scrollview.
 
 ![Alt Text](https://media.giphy.com/media/1gOAKQnF1c5FCqfk0P/giphy.gif)
@@ -347,8 +353,5 @@ the <b>OnPanUpdatedEvent</b> and <b>OnPanDirection<b> should look like this:
 </details>
 
     
- If this project help you reduce time to develop, you can give me a cup of coffee :)
- 
- [![paypal](https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H2TEDQDPJ557A)
     
     
