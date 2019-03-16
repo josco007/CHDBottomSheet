@@ -14,7 +14,7 @@ namespace PanGesture
         public HomePage ()
 		{
 			InitializeComponent ();
-            
+            CHDBottomSheetBs.MarginTop = 60;
             CHDBottomSheetBs.DefaultHeight = 200;
             CHDBottomSheetBs.OnPanUpdatedEvent += OnPanUpdated;
             //CHDBottomSheetBs.OnModeChanged += OnModeChanged;

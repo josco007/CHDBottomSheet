@@ -13,10 +13,12 @@
     <RepositoryUrl>https://github.com/josco007/CHDBottomSheet.git</RepositoryUrl>
     <PackageTags>bottom sheet xamarin forms andriod ios scroll</PackageTags>
     <PackageLicenseUrl>https://aka.ms/deprecateLicenseUrl</PackageLicenseUrl>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>margin top was added</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.220655" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
   </ItemGroup>
 
 </Project>

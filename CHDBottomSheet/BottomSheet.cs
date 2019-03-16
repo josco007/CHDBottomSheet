@@ -40,6 +40,7 @@ namespace CHD
         public double DefaultHeight { get; set; } = 200;
         public Modes Mode { get; set; } = Modes.Default;
         public bool IsResizeEnabled { get; set; } = true;
+        public double MarginTop { get; set; } = 0;
 
         public BottomSheet()
         {
@@ -92,7 +93,7 @@ namespace CHD
                             _currentY = _relativeLayout.Height - DefaultHeight;
                             break;
                         case Modes.Full:
-                            _currentY = 0;
+                            _currentY = 0 + MarginTop;
                             break;
                         case Modes.Moving:
                             _currentY = _relativeLayout.Height - (DefaultHeight + Math.Abs(y));
